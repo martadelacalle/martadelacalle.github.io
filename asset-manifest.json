@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/martadelacalle.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/martadelacalle.github.io/static/js/main.ff968414.js",
+    "main.js": "/martadelacalle.github.io/static/js/main.695e4504.js",
     "static/js/488.ab53dd5c.chunk.js": "/martadelacalle.github.io/static/js/488.ab53dd5c.chunk.js",
     "static/media/logo.svg": "/martadelacalle.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/martadelacalle.github.io/index.html",
     "main.f855e6bc.css.map": "/martadelacalle.github.io/static/css/main.f855e6bc.css.map",
-    "main.ff968414.js.map": "/martadelacalle.github.io/static/js/main.ff968414.js.map",
+    "main.695e4504.js.map": "/martadelacalle.github.io/static/js/main.695e4504.js.map",
     "488.ab53dd5c.chunk.js.map": "/martadelacalle.github.io/static/js/488.ab53dd5c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.ff968414.js"
+    "static/js/main.695e4504.js"
   ]
 }
