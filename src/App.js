@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './css/app.css';
+import './css/App.css';
 import { ErrorBoundary } from "react-error-boundary";
 import { React, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
