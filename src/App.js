@@ -2,10 +2,9 @@ import logo from './logo.svg';
 import './css/app.css';
 import { ErrorBoundary } from "react-error-boundary";
 import { React, useEffect } from "react";
-import { ErrorBoundary } from "react-error-boundary";
 import { Route, Routes } from "react-router-dom";
 import AppNavbar from "./AppNavBar.js";
-import Home from "./index.js";
+import Home from "./home.js";
 import About from "./about.js";
 import Skills from "./skills.js";
 import Projects from "./projects.js";
@@ -17,7 +16,7 @@ function ErrorFallback({ error, resetErrorBoundary }) {
       <div role="alert">
           <p>Something went wrong:</p>
           <pre>{error.message}</pre>
-          <Button onClick={resetErrorBoundary}>Try again</Button>
+          <button onClick={resetErrorBoundary}>Try again</button>
       </div>
   )
 }
