@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './css/App.css';
 import { ErrorBoundary } from "react-error-boundary";
 import { React, useEffect } from "react";

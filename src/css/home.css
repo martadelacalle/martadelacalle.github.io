@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    height:95vh;  
+    background-color: #FF7F50;
+    justify-content: center;
+    align-items: center;
+    padding:0
+}
+
+.description { 
+    font-style: italic;
+}
+
+* {
+    color: #E6E6FA;  /* Color del texto */
+    text-shadow: 
+      0.5px 0.5px 4px #8c6c95, 
+      -0.5px -0.5px 4px #8c6c95,
+      0.5px -0.5px 4px #8c6c95,
+      -0.5px 0.5px 4px #8c6c95; 
+    font-family: "Raleway", serif;
+
+}
+
+h1 { 
+    font-size: 7rem;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Chewy', sans-serif;
+    letter-spacing: 3px; 
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Raleway", serif;
+}
+
+.container-derecha, .container-izquierda {
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container-derecha {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-izquierda {
+    flex: 2
+}
