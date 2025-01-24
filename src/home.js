@@ -8,7 +8,7 @@ export default function Home(){
 
     return(
     <div className="container">
-        <img className="lavanda" alt="Marta" src={lavanda} style={{ height: "500px" }} />
+        <img className="lavanda" alt="lavanda" src={lavanda} style={{ height: "500px" }} />
         <div className="container-derecha">
             <h2 className="welcome">{translations[language].welcome}</h2>
             <h1 className="name">Marta de la Calle</h1>

@@ -9,7 +9,17 @@ export const translations = {
         project: "¿Quieres proponerme un proyecto?",
         mail: "Mándame un correo",
         socials: "o contáctame por redes sociales",
-        welcome: ""
+        welcome: "",
+        perfil1: "Me considero una persona orientada a objetivos, organizada y perseverante. A lo largo de mis estudios, he asumido el rol de líder en los trabajos en grupo. Soy capaz de dirigir y adaptarme a las diferentes necesidades con flexibilidad.",
+        perfil2: "Conozco bien las nuevas tecnologías, manejando así el Office 365 y la programación en diferentes lenguajes como Python o Java, buscando la constante innovación.",
+        perfil3: "Uno de los rasgos que me definen es mi entusiasmo a la hora de aprender. Intento aprovechar cualquier oportunidad para aprender nuevos idiomas y enriquecer mi formación mediante la realización de cursos especializados o la lectura de material académico relacionado.",
+        perfil4: "Busco un trabajo que desafíe mis capacidades y que me permita ampliar mis conocimientos.",
+        idiomas: "Idiomas:",
+        spanish: "Español nativo",
+        english: "Inglés Cambridge C1 Advanced",
+        chinese: "Chino HSK 3",
+        french: "Francés DELF B1",
+        korean: "Coreano Básico"
     },
     en: {
         about: "about",
@@ -21,6 +31,13 @@ export const translations = {
         project: "Want to work together?",
         mail: "Send me an email",
         socials: "or hit me up at",
-        welcome: "Welcome! I'm"
+        welcome: "Welcome! I'm",
+        perfil: "",
+        idiomas: "Languages: ",
+        spanish: "Spanish - mother tongue",
+        english: "English Cambridge C1 Advanced",
+        chinese: "Chinese HSK 3",
+        french: "French DELF B1",
+        korean: "Basic korean"
     },
   };
