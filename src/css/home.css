@@ -1,10 +1,10 @@
 .container {
     display: flex;
-    height:calc(100vh - 64px);  
+    height:calc(100vh - 74px);  
     background-color: #7e6b9f;
     justify-content: center;
     align-items: center;
-    padding:0
+    padding:0;
 }
 
 .description { 
@@ -45,22 +45,10 @@ h3 {
     font-family: "Roboto", serif;
 }
 
-.container-derecha, .container-izquierda {
+.container-derecha {
     justify-content: center; 
     align-items: center; 
-}
-
-.container-derecha {
-    flex: 10;
-    display: flex;
-    flex-direction: column;
-}
-
-.container-izquierda {
-    flex: 0;
-    position: relative;
-    left: 20%;
-    top: -5%
+    margin-top: 40px;
 }
 
 .welcome { 

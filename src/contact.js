@@ -18,9 +18,9 @@ export default function Contact(){
 
                 <h3 className='project'>{translations[language].project}</h3>
 
-                <h3><a href="mailto:martadelacalle2003@gmail.com">{translations[language].mail}</a></h3>
+                <h3 className='mail'><a href="mailto:martadelacalle2003@gmail.com">{translations[language].mail}</a></h3>
 
-                <h3>{translations[language].socials}</h3>
+                <h3 className='socials'>{translations[language].socials}</h3>
                 
                 <div className="social">
                     <a className="linkedin" href="https://www.linkedin.com/in/marta-de-la-calle/">

@@ -9,7 +9,6 @@ import logo from './images/logo_martadelacalle_lavanda.png'
 function AppNavbar() {
     const { language } = useLanguage();
 
-
     return (
         <div className='navbar-container'>
             <Navbar>
@@ -17,7 +16,7 @@ function AppNavbar() {
                 <div className='navbar-elements'>
                     <NavItem>
                         <a href="/">
-                            <img alt="Marta" src={logo} style={{ height: "50px" }} />
+                            <img alt="Marta" src={logo} style={{ height: "60px" }} />
                         </a>
                     </NavItem>
                     <div className='navbar-elements-left'>

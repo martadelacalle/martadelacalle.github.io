@@ -5,13 +5,10 @@ import lavanda from './images/lavanda.png'
 
 export default function Home(){
     const { language } = useLanguage();
-    
 
     return(
     <div className="container">
-        <div className="container-izquierda">
-            <img alt="Marta" src={lavanda} style={{ height: "500px" }} />
-        </div>
+        <img className="lavanda" alt="Marta" src={lavanda} style={{ height: "500px" }} />
         <div className="container-derecha">
             <h2 className="welcome">{translations[language].welcome}</h2>
             <h1 className="name">Marta de la Calle</h1>
