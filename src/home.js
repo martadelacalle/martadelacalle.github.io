@@ -1,8 +1,7 @@
 import './css/home.css'
 import { translations } from './utils/translations';
 import { useLanguage } from './utils/LenguageProvider';
-import logo from './logo_martadelacalle_lavanda.png'
-
+import lavanda from './images/lavanda.png'
 
 export default function Home(){
     const { language } = useLanguage();
@@ -11,9 +10,10 @@ export default function Home(){
     return(
     <div className="container">
         <div className="container-izquierda">
-            <img alt="Marta" src={logo} style={{ height: "100px" }} />
+            <img alt="Marta" src={lavanda} style={{ height: "500px" }} />
         </div>
         <div className="container-derecha">
+            <h2 className="welcome">{translations[language].welcome}</h2>
             <h1 className="name">Marta de la Calle</h1>
             <h3 className="description">{translations[language].description}</h3>
         </div>

@@ -1,9 +1,8 @@
 .navbar-container{ 
-    background-color: #8c6c95;
+    background-color: #FF9A8B;
     align-items: center;
     padding: 5px;
 }
-
 
 .navbar-elements{
     display: flex;
