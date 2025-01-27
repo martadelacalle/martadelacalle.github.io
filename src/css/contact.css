@@ -1,9 +1,10 @@
 .contact-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height:calc(100vh - 74px);  
     background-image: url("../images/background_image.png");
     align-items: center;
+    justify-content: center;
     background-color: #dad5ed;
     background-size: cover; 
     background-position: center center; 
@@ -14,42 +15,45 @@
     font-size: 5rem;
     display: inline-block; 
     font-family: "Raleway", serif;
+    color:#7e6b9f;
+    padding: 20px
 }
 
 .project { 
     font-size: 2rem;
     padding: 0;
     font-family: "Raleway", serif;
+    color: #7e6b9f
 }
 
-.socials {
-    font-family: "Raleway", serif;
+.social {
+    color:#7e6b9f;
+    margin-left: 20px;
+}
+
+.socials { 
+    display: flex;
+    flex-direction: row;
 }
 
 .semicircle {
-    width: 800px; 
-    height: 400px; 
-    border-top-left-radius: 180px; 
-    border-top-right-radius: 180px;
-    border-bottom-left-radius: 100px; 
-    border-bottom-right-radius: 100px;
-    position: relative;
-    top:10%;
-    background-color: #7e6b9f;
+    width: 600px; 
+    height: 500px; 
+    background-color: #dad5ed;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
     text-align: center;
-    box-shadow: 0 4px 8px #7e6b9f; 
-    padding: 20px;
 }
 
-.social { 
+.socials-container { 
     margin-top: 10px;
     display: flex;
     justify-content: center;
     gap:20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hi, .wave-emoji {
@@ -75,4 +79,19 @@
     50% {transform: rotate(10deg);}
     60% {transform: rotate(0deg);} /* Reset for the last half to pause */
     100% {transform: rotate(0deg);}
+}
+
+.photo {
+    z-index: 2;
+}
+
+.rectangle-contact {
+    position: absolute; 
+    width: 700px; 
+    height: 500px;
+    background-color: #FF9A8B;
+    z-index: 0;
+    right: 70%;
+    bottom: 37%;
+    overflow-x: hidden;
 }

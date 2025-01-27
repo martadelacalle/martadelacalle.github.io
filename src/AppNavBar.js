@@ -21,19 +21,19 @@ function AppNavbar() {
                     </NavItem>
                     <div className='navbar-elements-left'>
                     <NavItem>
-                        <NavLink style={{ textDecoration: "none" }} id="about" tag={Link} to="/about">{translations[language].about}</NavLink>
+                        <NavLink className="circle" style={{ textDecoration: "none" }} id="about" tag={Link} to="/about">{translations[language].about}</NavLink>
                     </NavItem>
                
                     <NavItem>
-                        <NavLink style={{ textDecoration: "none" }} id="skills" tag={Link} to="/skills">{translations[language].skills}</NavLink>
+                        <NavLink className="circle" style={{ textDecoration: "none" }} id="skills" tag={Link} to="/skills">{translations[language].skills}</NavLink>
                     </NavItem>
 
                     <NavItem>
-                        <NavLink style={{ textDecoration: "none"}} id="projects" tag={Link} to="/projects">{translations[language].projects}</NavLink>
+                        <NavLink className="circle" style={{ textDecoration: "none"}} id="projects" tag={Link} to="/projects">{translations[language].projects}</NavLink>
                     </NavItem>
 
                     <NavItem>
-                        <NavLink style={{ textDecoration: "none" }} id="contact" tag={Link} to="/contact">{translations[language].contact}</NavLink>
+                        <NavLink className="circle" style={{ textDecoration: "none" }} id="contact" tag={Link} to="/contact">{translations[language].contact}</NavLink>
                     </NavItem>
                     </div>
                 </div>

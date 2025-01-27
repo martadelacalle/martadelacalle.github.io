@@ -3,6 +3,8 @@ import { translations } from './utils/translations';
 import './css/contact.css'
 import gh from './images/github_logo.png'
 import linkedin from './images/linkedin_logo.png'
+import mail from './images/mail_logo.png'
+import foto from './images/foto_contacto.jpg'
 
 export default function Contact(){
     const { language } = useLanguage();
@@ -10,27 +12,39 @@ export default function Contact(){
 
     return(
         <div className="contact-container">
+            <img className="photo" alt="Marta" src={foto} style={{ height: "500px" }} />
             <div className="semicircle">
                 <div className="wave-container">
                     <h2 className="hi">{translations[language].hi}</h2>
-                    <span class="wave-emoji" role="img" aria-label="Waving hand emoji">👋🏻</span>
+                    <span className="wave-emoji" role="img" aria-label="Waving hand emoji">👋🏻</span>
                 </div>
 
-                <h3 className='project'>{translations[language].project}</h3>
+                <p className='project'>{translations[language].project}</p>
 
-                <h3 className='mail'><a href="mailto:martadelacalle2003@gmail.com">{translations[language].mail}</a></h3>
+                <div className="socials-container">
+                    <div className="socials">
+                        <a className="mail" href="mailto:martadelacalle2003@gmail.com">
+                            <img alt="Gmail" src={mail} style={{ height: "50px", borderRadius: "10px"}} />
+                        </a>
+                        <p className='social'>martadelacalle2003@gmail.com</p>
+                    </div>
 
-                <h3 className='socials'>{translations[language].socials}</h3>
-                
-                <div className="social">
-                    <a className="linkedin" href="https://www.linkedin.com/in/marta-de-la-calle/">
-                        <img alt="Linkedin" src={linkedin} style={{ height: "50px" }} />
-                    </a>
-                    <a href="https://github.com/martadelacalle/">
-                        <img alt="Github" src={gh} style={{ height: "50px" }} />
-                    </a>
+                    <div className="socials">
+                        <a className="linkedin" href="https://www.linkedin.com/in/marta-de-la-calle/">
+                            <img alt="Linkedin" src={linkedin} style={{ height: "50px" }} />
+                        </a>
+                        <p className='social'>Marta de la Calle</p>
+                    </div>
+
+                    <div className="socials">
+                        <a className="gh" href="https://github.com/martadelacalle/">
+                            <img alt="Github" src={gh} style={{ height: "50px" }} />
+                        </a>
+                        <p className='social'>martadelacalle</p>
+                    </div>
                 </div>
             </div>
+            <div className="rectangle-contact">                </div>
         </div>
     );
     

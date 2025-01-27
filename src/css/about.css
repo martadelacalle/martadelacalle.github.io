@@ -8,44 +8,70 @@
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 
 .rectangle { 
     width: 700px; 
     height: auto;
-    background-color: #7e6b9f; 
     justify-content: center;
     align-items: center; 
+    background-color: #dad5ed;
     border-radius: 30px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    padding: 60px;
+    padding: 30px;
     margin-left: 60px;
+    z-index: 2;
 }
 
-h3 {
+.title-about {
     font-family: "Raleway", serif;
-    text-align: justify;
+    text-align: center;
+    margin-left: -15px;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-shadow: none;
+    margin-top: 60px;
+    z-index: 4;
+    position: relative;
+    font-size: 3rem;
 }
 
 .rectangle-idiomas { 
-    width: 200px; 
-    height: auto;
+    width: 300px; 
+    height: 500px;
     background-color: #7e6b9f; 
-    justify-content: center;
-    align-items: center; 
-    border-radius: 20px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    padding: 40px;
-    margin-left: 60px;
-    position: relative;
-    top: 30%
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-top: 15px;    
+    padding-bottom: 20px;
+    margin-left: 80px;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
 }
-p {
+
+.perfil {
     text-align: justify;
     font-size: 1.5rem;
 }
 
-/*.photo {
-    position: relative;
-    bottom: 20%;
-}*/
+p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-shadow: none;
+}
+
+.rectangle-about {
+    position: absolute; 
+    width: 500px; 
+    height: 100px;
+    background-color: #FF9A8B;
+    z-index: 1;
+    top: 33%;
+    left: 39%
+}
+
+.formacion {
+    color:#7e6b9f
+}

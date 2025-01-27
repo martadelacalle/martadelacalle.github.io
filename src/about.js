@@ -8,24 +8,23 @@ export default function About(){
 
     return(
     <div className="about-container">
-        <img className="photo" alt="Marta" src={foto} style={{ height: "500px" }} />
-        <div className="rectangle">
-            <p className="perfil">{translations[language].perfil1}</p>
-            <p className="perfil">{translations[language].perfil2}</p>
-            <p className="perfil">{translations[language].perfil3}</p>
-            <p className="perfil">{translations[language].perfil4}</p>
-        </div>
-        <div className="rectangle-idiomas">
-            <h3 className="idiomas">{translations[language].idiomas}</h3>
-            <ul>
-                <li>{translations[language].spanish}</li>
-                <li>{translations[language].english}</li>
-                <li>{translations[language].french}</li>
-                <li>{translations[language].chinese}</li>
-                <li>{translations[language].korean}</li>
-            </ul>
-
-        </div>
+            <div className="rectangle">
+                <h3 className='title-about'>{translations[language].studies}</h3>
+                <p className='formacion'>2019 - 2021</p>
+                <p className='formacion'>{translations[language].bach} </p>
+                <p className='formacion'>2022 - 2026</p>
+                <p className='formacion'>{translations[language].uni} </p>
+                <div className="rectangle-about">            </div>
+            </div>
+            <div className="rectangle-idiomas">
+                <h3 className='title-about'>{translations[language].idiomas}</h3>
+                <p>{translations[language].spanish}</p>
+                <p>{translations[language].english}</p>
+                <p>{translations[language].french}</p>
+                <p>{translations[language].chinese}</p>
+                <p>{translations[language].korean}</p>
+            </div>
     </div>
     );
+    //TODO AÑADIR CERTIFICACIONES!!!!!!!!!!
 }
