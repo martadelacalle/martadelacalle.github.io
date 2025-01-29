@@ -1,0 +1,168 @@
+.skills-container {
+    display: flex;
+    background-image: url("../images/background_image.png");
+    background-color: #dad5ed;
+    background-size:contain; 
+    background-position: top center; 
+    background-repeat: repeat-y;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-skills {
+    font-family: "Raleway", serif;
+    text-align: center;
+    margin-left: -15px;
+    font-size: 2rem;
+    text-shadow: none;
+    font-size: 3rem;
+    padding: 30px;
+    z-index: 3;
+}
+
+.img-python {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    margin-right: 220px;
+    height: 100px;
+    width: 120px;
+    margin-bottom: 70px
+}
+
+.img-java {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    height: 170px;
+    margin-right: 80px;
+}
+
+.img-js {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    margin-right: 100px;
+    height: 170px;
+}
+
+.img-html {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    margin-right: 40px;
+    height: 200px;
+    width: 120px;
+}
+
+.img-r {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    height: 150px;
+}
+
+.img-mysql {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    height: 100px;
+    width: 290px;
+    margin-right: 100px;
+    margin-left: 60px;
+}
+
+.img-kotlin {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    margin-right: 40px;
+    height: 100px;
+}
+
+.img-haskell {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    margin-right: 90px;
+    height: 150px;
+    margin-left: 100px;
+}
+
+.img-css {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    margin-right: 40px;
+    height: 170px;
+    margin-top: 30px;
+}
+
+.img-react {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    margin-right: 40px;
+    height: 100px;
+}
+
+.img-mongodb {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    margin-right: 90px;
+    height: 150px;
+    margin-left: 110px;
+}
+
+.img-mariadb {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    height: 130px;
+    margin-left: 100px;
+}
+
+.img-kotlin {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 90px;
+}
+
+.img-react {
+    border: 2px solid #7e6b9f;
+    padding: 10px;
+    margin-right: 70px;
+    height: 90px;
+}
+
+.skill-container-3 {
+    margin-bottom: 100px;
+}
+
+img{
+    box-shadow: 3px 3px 10px #7e6b9f;
+    background-color: #dad5ed;
+}
+
+.rectangle-skill-1 {
+    position: absolute; 
+    width: 500px; 
+    height: 5%;
+    background-color: #FF9A8B;
+    z-index: 1;
+    top: 15%;
+    left: 50%
+}
+
+.rectangle-skill-2 {
+    position: absolute; 
+    width: 500px; 
+    height: 50px;
+    background-color: #FF9A8B;
+    z-index: 1;
+    top: 117%;
+    left: 50%
+}
+
+.tools-container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail, .linkedin, .gh {
+    box-shadow: none;
+}

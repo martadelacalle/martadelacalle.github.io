@@ -29,7 +29,9 @@ export const translations = {
         football: "Fútbol y Fórmula 1",
         studies: "FORMACION ACADEMICA",
         bach: "Bachillerato tecnológico en Colegio San Franciso de Paula",
-        uni: "Grado en Ingeniería Informática - Ingeniería del Software en la Universidad de Sevilla"
+        uni: "Grado en Ingeniería Informática - Ingeniería del Software en la Universidad de Sevilla",
+        skill: "HABILIDADES",
+        tools: "HERRAMIENTAS"
     },
     en: {
         about: "about",
@@ -59,6 +61,8 @@ export const translations = {
         studies: "ACADEMIC STUDIES",
         bach: "Technological High School Diploma at Colegio Internacional San Francisco de Paula",
         uni: "Degree in Computer Sciencce - Software Engineering at Universidad de Sevilla",
-        exp: "Experience"
+        exp: "Experience",
+        skill: "SKILLS",
+        tools: "TOOLS"
     },
   };

@@ -9,7 +9,7 @@ export default function About(){
     return(
     <div className="about-container">
             <div className="rectangle">
-                <h3 className='title-about'>{translations[language].studies}</h3>
+                <p className='title-about'>{translations[language].studies}</p>
                 <p className='formacion'>2019 - 2021</p>
                 <p className='formacion'>{translations[language].bach} </p>
                 <p className='formacion'>2022 - 2026</p>
@@ -17,7 +17,7 @@ export default function About(){
                 <div className="rectangle-about">            </div>
             </div>
             <div className="rectangle-idiomas">
-                <h3 className='title-about'>{translations[language].idiomas}</h3>
+                <p className='title-about'>{translations[language].idiomas}</p>
                 <p>{translations[language].spanish}</p>
                 <p>{translations[language].english}</p>
                 <p>{translations[language].french}</p>

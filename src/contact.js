@@ -1,9 +1,9 @@
 import { useLanguage } from './utils/LenguageProvider';
 import { translations } from './utils/translations';
 import './css/contact.css'
-import gh from './images/github_logo.png'
-import linkedin from './images/linkedin_logo.png'
-import mail from './images/mail_logo.png'
+import gh from './images/logos/github_logo.png'
+import linkedin from './images/logos/linkedin_logo.png'
+import mail from './images/logos/mail_logo.png'
 import foto from './images/foto_contacto.jpg'
 
 export default function Contact(){
@@ -24,21 +24,21 @@ export default function Contact(){
                 <div className="socials-container">
                     <div className="socials">
                         <a className="mail" href="mailto:martadelacalle2003@gmail.com">
-                            <img alt="Gmail" src={mail} style={{ height: "50px", borderRadius: "10px"}} />
+                            <img className="mail" alt="Gmail" src={mail} style={{ height: "50px", borderRadius: "10px"}} />
                         </a>
                         <p className='social'>martadelacalle2003@gmail.com</p>
                     </div>
 
                     <div className="socials">
                         <a className="linkedin" href="https://www.linkedin.com/in/marta-de-la-calle/">
-                            <img alt="Linkedin" src={linkedin} style={{ height: "50px" }} />
+                            <img className="linkedin" alt="Linkedin" src={linkedin} style={{ height: "50px" }} />
                         </a>
                         <p className='social'>Marta de la Calle</p>
                     </div>
 
                     <div className="socials">
                         <a className="gh" href="https://github.com/martadelacalle/">
-                            <img alt="Github" src={gh} style={{ height: "50px" }} />
+                            <img className="gh"alt="Github" src={gh} style={{ height: "50px" }} />
                         </a>
                         <p className='social'>martadelacalle</p>
                     </div>

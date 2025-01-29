@@ -184,4 +184,6 @@ h3 {
     top: 0%;
     left: 90%;
     transform: translateY(-50%);
+    background-color: transparent;
+    box-shadow: none;
 }
