@@ -1,0 +1,74 @@
+.projects-container {
+    display: flex;
+    background-image: url("../images/background_image.png");
+    background-color: #dad5ed;
+    background-size:contain; 
+    background-position: top center; 
+    background-repeat: repeat-y;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.project-left {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    width: 80%;
+}
+
+.project-right {
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    width: 80%;
+}
+
+.project-description {
+    color: #7e6b9f;
+    text-align: justify;
+    background-color: #dad5ed;
+    padding: 10px;
+    width: 600px;
+}
+
+.project-title {
+    font-size: 2rem;
+    font-family: "Raleway", serif;
+    text-align: left;
+    margin-left: 10px;
+    text-shadow: none;
+    color: #7e6b9f;
+    background-color: #dad5ed;
+
+}
+
+.photo-project {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.rectangle-project {
+    position: absolute; 
+    height: 100px;
+    width: 100px;
+    background-color: #FF9A8B;
+    z-index: 0;
+    margin-top: 350px;
+    padding: 50px;
+    left: -100px
+}
+
+.project-image{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
