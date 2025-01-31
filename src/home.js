@@ -29,6 +29,7 @@ export default function Home(){
                 <img className="photo" alt="Marta" src={foto} style={{ height: "500px" }} />
                 <div className="text-container">
                     <div className="rectangle-perfil">
+                        {/*TODO: ACTUALIZAR INFO DEL PERFIL */}
                         <p className="perfil">{translations[language].perfil2}</p>
                         <p className="perfil">{translations[language].perfil3}</p>
                     </div>
@@ -39,10 +40,10 @@ export default function Home(){
                             <p className='hobby'>{translations[language].tvshows}</p>
                             <p className='hobby'>{translations[language].puzzles}</p>
                             <p className='hobby'>{translations[language].travel}</p>
-                        </div>
-                        <div className="hobby-2">
                             <p className='hobby'>{translations[language].gym}</p>
                             <p className='hobby'>{translations[language].fashion}</p>
+                        </div>
+                        <div className="hobby-2">
                             <p className='hobby'>{translations[language].football}</p>
                         </div>
                     </div>
