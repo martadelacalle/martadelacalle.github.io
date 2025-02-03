@@ -25,8 +25,10 @@ export default function Skills(){
 
     return(
         <div className="skills-container">
-                <p className='title-skills'>{translations[language].skill}</p>
-                <div className="rectangle-skill-1">            </div>
+                <div className="skills-title">
+                    <p className='title-skills'>{translations[language].skill}</p>
+                    <div className="rectangle-skill-1">            </div>
+                </div>
                 <div className="skill-container">
                     <div className="skill-container-1">
                         <img className="img-mongodb" alt="MongoDB" src={mongodb}/>
@@ -47,8 +49,10 @@ export default function Skills(){
                         <img className="img-mariadb" alt="MariaDB" src={mariadb}/>
                     </div>
             </div>
-                <p className='title-skills'>{translations[language].tools}</p>
-                <div className="rectangle-skill-2">            </div>
+                <div className="skills-title">
+                    <p className='title-skills'>{translations[language].tools}</p>
+                    <div className="rectangle-skill-2">            </div>
+                </div>
                 <div className="tools-container">
                     <div className="tool-container-1">
                         <img className="img-react" alt="Android Studio" src={android}/>

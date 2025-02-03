@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useLanguage } from './utils/LenguageProvider';
 import { translations } from './utils/translations';
 import './css/navbar.css'
-import logo from './images/logo_martadelacalle_lavanda.png'
+import logo from './images/logo_martadelacalle_vFinal.png'
 
 
 function AppNavbar() {

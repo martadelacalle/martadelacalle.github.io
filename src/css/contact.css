@@ -88,10 +88,17 @@
 .rectangle-contact {
     position: absolute; 
     width: 700px; 
-    height: 500px;
+    height: 450px;
     background-color: #FF9A8B;
     z-index: 0;
     right: 70%;
-    bottom: 37%;
+    top: -12%;
     overflow-x: hidden;
+}
+
+.contact-image{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

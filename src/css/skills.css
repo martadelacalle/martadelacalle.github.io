@@ -139,20 +139,20 @@ img{
 .rectangle-skill-1 {
     position: absolute; 
     width: 500px; 
-    height: 5%;
+    height: 30%;
     background-color: #FF9A8B;
     z-index: 1;
-    top: 15%;
+    top: 35%;
     left: 50%
 }
 
 .rectangle-skill-2 {
     position: absolute; 
     width: 500px; 
-    height: 50px;
+    height: 30%;
     background-color: #FF9A8B;
     z-index: 1;
-    top: 117%;
+    top: 35%;
     left: 50%
 }
 
@@ -165,4 +165,11 @@ img{
 
 .mail, .linkedin, .gh {
     box-shadow: none;
+}
+
+.skills-title{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

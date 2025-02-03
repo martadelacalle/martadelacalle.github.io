@@ -12,7 +12,10 @@ export default function Contact(){
 
     return(
         <div className="contact-container">
-            <img className="photo" alt="Marta" src={foto} style={{ height: "500px" }} />
+            <div className="contact-image">               
+                <img className="photo" alt="Marta" src={foto} style={{ height: "500px" }} />
+                <div className="rectangle-contact">                </div>
+            </div>
             <div className="semicircle">
                 <div className="wave-container">
                     <h2 className="hi">{translations[language].hi}</h2>
@@ -44,7 +47,6 @@ export default function Contact(){
                     </div>
                 </div>
             </div>
-            <div className="rectangle-contact">                </div>
         </div>
     );
     

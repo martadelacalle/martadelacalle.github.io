@@ -68,10 +68,17 @@ p {
     height: 100px;
     background-color: #FF9A8B;
     z-index: 1;
-    top: 33%;
-    left: 39%
+    top: 10%;
+    left: 50%
 }
 
 .formacion {
     color:#7e6b9f
+}
+
+.rectangle-title{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
